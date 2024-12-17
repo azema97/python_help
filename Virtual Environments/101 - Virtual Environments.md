@@ -22,6 +22,9 @@ pip install virtualenv
 2. Crea un nuevo entorno virtual:
 ```bash
 python -m virtualenv nombre_entorno
+
+# Instalar sin las librerias globales
+python -m venv --without-pip nombre_entorno
 ```
 
 NOTA: Por protocolo, normalmente llamamos a los entornos como "env".
